@@ -1,0 +1,9 @@
+@import '../abstracts/variables';
+
+body{
+    background: $bg-color;
+}
+
+main{
+    background: $content-bg-color;
+}
