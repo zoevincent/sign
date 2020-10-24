@@ -1,9 +1,22 @@
 @import '../abstracts/variables';
 
 body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
     background: $bg-color;
 }
 
-main{
+.image-container{
+    justify-self: end;
+}
+
+.content{
     background: $content-bg-color;
+}
+
+.content__form__element{
+    display: flex;
+    flex-direction: column;
 }

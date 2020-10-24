@@ -1,4 +1,9 @@
 *.vscode
 *.DS_Store
+
+# using vscode sass compiler
 *.css
 *.css.map
+
+# using Koala
+/css/*
