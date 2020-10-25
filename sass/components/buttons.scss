@@ -4,12 +4,12 @@
 button{
     width: 320px;
     height: 40px;
-    margin-top: $base-space-6;
+    margin-top: $base-space-5;
     border-style: none;
     border-radius: 7px;
     background-color: $button-bg-normal-color;
     color: $button-text-normal-color;
-    font-size: 16px;
+    font-size: $h4-size;
 }
 
 button:hover{

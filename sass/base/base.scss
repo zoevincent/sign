@@ -8,15 +8,14 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     background: $bg-color;
-    font-family: $text-font;
 }
 
 /*********************
 ********Content*******
 *********************/
 .content{
-    width: 560px;
-    height: 800px;
+    width: 40vw;
+    height: 95vh;
     margin: auto 0;
     border-radius: 25px;
     display: flex;
@@ -36,11 +35,8 @@ body{
 
         .content__head__title{
             position: absolute;
-            bottom: 4px;
-            left: 37%;
-            font-family: $title-font;
-            font-weight: $title-font-weight;
-            color: $title-color;
+            bottom: 2px;
+            left: 35%;
         }
     }
 
@@ -48,14 +44,16 @@ body{
     .content__redirection{
         display: flex;
         flex-direction: row;
-        margin-top: $base-space-4;
-        margin-bottom: $base-space-5;
+        align-items: flex-end;
+        margin-top: $base-space-3;
+        margin-bottom: $base-space-4;
 
         .content__redirection__link{
             margin-left: $base-space-4;
             text-decoration: none;
             text-transform: uppercase;
             font-weight: $text-font-strong-weight;
+            font-size: $h4-size;
             color: $link-color;
         }
     }
@@ -72,7 +70,21 @@ body{
             text-decoration: none;
             color: black;
             font-weight: $text-font-strong-weight;
-            font-size: smaller;
         }
+    }
+}
+
+
+/*********************
+*********Image********
+*********************/
+
+.image-container{
+    height: 100vh;
+    width: auto;
+
+    .image-container__img{
+        height: 100%;
+        width: auto;
     }
 }
