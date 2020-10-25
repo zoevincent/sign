@@ -1,0 +1,23 @@
+@import '../abstracts/variables';
+@import '../base/typography.scss';
+
+button{
+    width: 320px;
+    height: 40px;
+    margin-top: $base-space-6;
+    border-style: none;
+    border-radius: 7px;
+    background-color: $button-bg-normal-color;
+    color: $button-text-normal-color;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: $button-bg-hover-color;
+    color: $button-text-hover-color;
+}
+
+button:disabled{
+    background-color: $button-bg-disabled-color;
+    color: $button-text-disabled-color;
+}

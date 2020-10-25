@@ -1,0 +1,18 @@
+@import '../abstracts/variables';
+@import '../base/typography.scss';
+
+label{
+    font-weight: $text-font-strong-weight;
+    margin-bottom: $base-space-1;
+}
+
+input{
+    height: $base-space-5;
+    width: 320px;
+    border-radius: 7px;
+    border-color: $textfield-border-normal-color;
+}
+
+input:focus{
+    outline-color: $textfield-border-selected-color;
+}

@@ -11,6 +11,12 @@ $title-color: #504889;
 $text-color: #000000;
 $link-color: #FED0B2;
 
+// Textfields
+// normal
+$textfield-border-normal-color: #C4C4C4;
+// selected
+$textfield-border-selected-color: #504889;
+
 // Buttons
 // normal
 $button-bg-normal-color : #504889;
@@ -26,3 +32,9 @@ $button-text-disabled-color : #B9B6D0;
 /**************
 *****Spaces****
 **************/
+$base-space-1 : 8px;
+$base-space-2 : 12px;
+$base-space-3 : 16px;
+$base-space-4 : 24px;
+$base-space-5 : 40px;
+$base-space-6 : 80px;
