@@ -63,7 +63,7 @@ if(!empty($_POST))
             $mailexist = $reqmail->rowCount();
             if($mailexist == 0)
             {
-                $successMessages[] = 'You are now registered  <a href="login.php"">Click here to connect</a>';
+                $successMessages[] = 'You are now registered  <a href="index.php"">Click here to connect</a>';
         
                 // DB Add values
                 $prepare = $pdo->prepare('
