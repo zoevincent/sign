@@ -52,15 +52,12 @@ if(!empty($_POST))
             {
                 $_SESSION['login'] = $userinfo['login'];
                 $_SESSION['id'] = $userinfo['id'];
-                $_SESSION['admin'] = $userinfo['admin'];
                 $_SESSION['mail'] = $userinfo['mail'];
-                $_SESSION['avatar'] = $userinfo['avatar'];
                 $_SESSION['auth'] = $userinfo;
                 $successMessages[] = 'You are now logged in!';
                 // Reset values
                 $login = '';
                 $password = '';
-                header('Location: index.php');   
             }
             else
             {
