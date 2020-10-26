@@ -31,12 +31,12 @@
         <form action="#" method="post" class="content__form">
             <!-- Messages -->
             <?php foreach($errorMessages as $_message): ?>
-                <div class="alert alert-danger" role="alert">
+                <div class="alert-danger" role="alert">
                     <?= $_message ?>
                 </div>
             <?php endforeach ?>
             <?php foreach($successMessages as $_message): ?>
-                <div class="alert alert-success" role="alert">
+                <div class="alert-success" role="alert">
                     <?= $_message ?>
                 </div>
             <?php endforeach ?>
